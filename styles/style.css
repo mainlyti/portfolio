@@ -13,21 +13,26 @@ h1,
 h2,
 h3 {
   font-family: var(--heading-font);
-  text-align: center;
 }
 
 h1 {
-  font-size: 83px;
+  font-size: 75px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
 }
 
 p {
   font-family: var(--main-font);
+  font-size: 18px;
 }
 
 .hero {
   background: var(--primary-color);
   color: var(--secondary-color);
-  padding: 120px;
+  padding: 120px 60px;
 }
 
 .hero p {
@@ -43,12 +48,33 @@ p {
   font-size: 25px;
 }
 
-.weather-project {
-  width: 300px;
-  border-radius: 5px;
+.project-img {
+  border-radius: 8px;
+  border: 50px solid var(--secondary-color);
 }
 
-.weather-project-container {
-  background: var(--secondary-color);
-  padding: 15px;
+.project-text {
+  text-align: center;
+  padding: 95px 25px;
+  margin-top: 80px;
+}
+
+.project-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 70px 20px;
+  }
+
+  .project-text {
+    padding: 30px 22px;
+    margin-top: 0;
+  }
 }
