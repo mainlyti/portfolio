@@ -68,6 +68,29 @@ p {
   padding: 15px 30px;
 }
 
+.profile-pic {
+  border-radius: 8px;
+  border: 30px solid var(--secondary-color);
+  width: 400px;
+  margin-left: 100px;
+}
+
+.about-header {
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.about-text {
+  text-align: center;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.name {
+  color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 70px 20px;
@@ -76,5 +99,19 @@ p {
   .project-text {
     padding: 30px 22px;
     margin-top: 0;
+  }
+
+  .about-header {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .about-text {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .profile-pic {
+    margin: 0;
   }
 }
