@@ -50,7 +50,9 @@ p {
 
 .project-img {
   border-radius: 8px;
-  border: 50px solid var(--secondary-color);
+  border: 35px solid var(--secondary-color);
+  width: 800px;
+  height: 550px;
 }
 
 .project-text {
