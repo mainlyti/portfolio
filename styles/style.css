@@ -29,6 +29,28 @@ p {
   font-size: 18px;
 }
 
+footer {
+  text-align: center;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: var(--secondary-color);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .hero {
   background: var(--primary-color);
   color: var(--secondary-color);
